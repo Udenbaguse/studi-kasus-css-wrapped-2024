@@ -46,13 +46,13 @@ Selamat datang di _studi-kasus-css-wrappped-2024-Udenbaguse_
     *   []
     *   []
 
-*   **[#7 Scroll-Driven-Animation]:** 
-    *   **[]**  
+*   **[#7 Cross-Document-View-Transitions]:** 
+    *   **[ga ada, browser gw ga kompatibel]**  
     *   []
     *   []
     *   []
 
-*   **[#8]:** 
+*   **[#8 Scroll-Driven-Animation]:** 
     *   **[]**  
     *   []
     *   []
