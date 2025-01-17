@@ -29,10 +29,10 @@ Selamat datang di _studi-kasus-css-wrappped-2024-Udenbaguse_
     *   [membandingkan accordion versi: bootstrap, buatan sendiri, & css wrapper 2024. mengimplementasikan accordion css wrapper 2024 pada accordion sebelumnya(buatan sendiri)]
 
 *   **[#4 Anchor-Positoning]:** 
-    *   **[]**  
-    *   []
-    *   []
-    *   []
+    *   **[positioned-elemen]**  
+    *   [mengatur supaya elemen bisa dipusatkan & diatur posisinya]
+    *   [position-area: center center]
+    *   [gunakan kombinasi 2 value antara: left, right, center, top, bottom]
 
 *   **[#5]:** 
     *   **[]**  
