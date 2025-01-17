@@ -1,0 +1,38 @@
+:root {
+  interpolate-size: allow-keywords;
+} /* supaya max-content kompatibel dengan transisi */
+
+nav a {
+  white-space: nowrap;
+  width: 2.5rem;
+  overflow-x: clip;
+  transition: width 1s ease; /* transisi */
+  &:hover,
+  &:focus-visible {
+    width: max-content; /* gunakan ukuran tetap seperti px untuk mendukung transisi. secara default max-content tidak mendukung transisi, supaya max-content mendukung transisi gunakan interpolate-size atau calc-size */
+  }
+}
+
+@layer layout {
+  * {
+    box-sizing: border-box;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    a {
+      display: grid;
+      grid-template-columns: 1.5rem auto;
+      gap: 1rem;
+      padding:5px;
+      background: powderblue;
+      text-decoration: none;
+      &:hover,
+      &:focus-visible {
+        background: aqua;
+      }
+    }
+  }
+}
