@@ -25,7 +25,7 @@ Selamat datang di _studi-kasus-css-wrappped-2024-Udenbaguse_
 *   **[#3 Details<exclusive>]:** 
     *   **[Accordion]**  
     *   [membuat accordion lebih mudah]
-    *   [<details><summary></summary><details>]
+    *   [details & summary]
     *   [membandingkan accordion versi: bootstrap, buatan sendiri, & css wrapper 2024. mengimplementasikan accordion css wrapper 2024 pada accordion sebelumnya(buatan sendiri)]
       
 **Panduan Penggunaan:**
