@@ -32,7 +32,7 @@ Selamat datang di _studi-kasus-css-wrappped-2024-Udenbaguse_
 
 1.  **Pilih studi kasus** yang ingin kamu pelajari.
 2.  **Buka folder**  yang berisi studi kasus tersebut.
-3.  **Baca penjelasan**  tentang studi kasus.
+3.  **Baca penjelasan studi kasus** _(tidak semuanya ada README, ada juga tanpa README yang penjelasannya ada di komentar kode)_  
 4.  **Pelajari contoh kode program**  dan terapkan pada proyekmu sendiri.
 
 **Subcribe Channel Youtube "Udenbaguse"**
