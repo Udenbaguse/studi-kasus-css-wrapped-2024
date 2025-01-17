@@ -34,7 +34,7 @@ Selamat datang di _studi-kasus-css-wrappped-2024-Udenbaguse_
     *   [position-area: center center]
     *   [gunakan kombinasi 2 value antara: left, right, center, top, bottom]
 
-*   **[#5]:** 
+*   **[#5 Custom-Scrollbar]:** 
     *   **[]**  
     *   []
     *   []
