@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <style type="text/css" media="all">
+  /* pusat */
+    .anchor {
+  anchor-name: --over-easy;
+  display: flex;
+  margin: 25%;
+}
+
+/* posisi elemen */
+.positioned-element {
+  position: fixed;
+  position-anchor: --over-easy;
+  position-area: left center;
+  /* isi 2 value dengan kombinasi:
+  left, center, right
+  dan
+  top, center, bottom */
+}
+  </style>
+  <title>Anchor-Positioning</title>
+</head>
+<body>
+  <div class="anchor"> <!-- pusat -->
+  <img src="https://assets.codepen.io/2585/image_fx_.jpg" alt="a smiling sunny side up egg made of clay" width="50%" />
+  </div>
+
+<div class="positioned-element">
+  posisi elemen
+</div>
+</body>
+</html>
