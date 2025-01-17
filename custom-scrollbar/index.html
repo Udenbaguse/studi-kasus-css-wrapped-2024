@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <style type="text/css" media="all">
+    body{
+    }
+    .scrollable-content{
+      margin: 0;
+      width: 400px;
+      height: 200px;
+      overflow-y: auto; /* scrollbar vertikal */
+      
+      /* kode dibawah ini hanya bisa berjalan di beberapa browser modern seperti Chrome */
+      scrollbar-width: 5px;
+      scrollbar-color: skyblue blue; 
+      /* : thumb track; */
+      /* jika browser belum mendukung scrollbar-width dan scrollbar-color, kita bisa pake webkit supaya didukung/kompatibel dengan semua browser */
+    }
+      
+      /* kode webkit mulai */
+      .scrollable-content::-webkit-scrollbar{
+        width: 5px;
+      }
+      .scrollable-content::-webkit-scrollbar-track{
+        background: blue;
+      }
+      .scrollable-content::-webkit-scrollbar-thumb{
+        background-color: skyblue;
+      }
+      /* kode webkit selesai */
+      
+ /* kode ini dibuat Udenbaguse pada awal 2025 ketika masih belum semua browser mendukung scrollbar-width dan scrollbar-color. 
+    ini ga ada default value jadi ketika scrollbar-color didukung browser maka kode ini yang dijalankan, tapi ketika browser tidak mendukung maka kode webkit yang dijalankan. 
+    ini akan jadi masalah di browser Chrome versi mobile yang sudah mendukung scrollbar-color untuk thumb tapi tidak untuk track. 
+    Masalah yang muncul seperti bug karena warna thumb muncul tapi track nggak, untuk mengatasi masalah ini caranya baris kode scrollbar-width & scrollbar-color dihapus(tidak dipakai) supaya di browser manapun webkit yang dijalankan. 
+    kode webkit memang agak lebih panjang tapi ini masih menjadi best practice untuk saat ini  */
+  </style>
+  <title>Custom-Scrollbar</title>
+</head>
+<body>
+  <div class="scrollable-content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ut repellendus, sint distinctio molestias quos dolorem quis, ea, tenetur repellat non sequi labore a? Reiciendis cum qui, facere consequuntur rerum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ut repellendus, sint distinctio molestias quos dolorem quis, ea, tenetur repellat non sequi labore a? Reiciendis cum qui, facere consequuntur rerum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ut repellendus, sint distinctio molestias quos dolorem quis, ea, tenetur repellat non sequi labore a? Reiciendis cum qui, facere consequuntur rerum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ut repellendus, sint distinctio molestias quos dolorem quis, ea, tenetur repellat non sequi labore a? Reiciendis cum qui, facere consequuntur rerum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ut repellendus, sint distinctio molestias quos dolorem quis, ea, tenetur repellat non sequi labore a? Reiciendis cum qui, facere consequuntur rerum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ut repellendus, sint distinctio molestias quos dolorem quis, ea, tenetur repellat non sequi labore a? Reiciendis cum qui, facere consequuntur rerum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ut repellendus, sint distinctio molestias quos dolorem quis, ea, tenetur repellat non sequi labore a? Reiciendis cum qui, facere consequuntur rerum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ut repellendus, sint distinctio molestias quos dolorem quis, ea, tenetur repellat non sequi labore a? Reiciendis cum qui, facere consequuntur rerum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ut repellendus, sint distinctio molestias quos dolorem quis, ea, tenetur repellat non sequi labore a? Reiciendis cum qui, facere consequuntur rerum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ut repellendus, sint distinctio molestias quos dolorem quis, ea, tenetur repellat non sequi labore a? Reiciendis cum qui, facere consequuntur rerum.</p>
+  </div>
+</body>
+</html>
