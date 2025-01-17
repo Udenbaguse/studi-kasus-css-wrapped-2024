@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <style type="text/css" media="all">
+  /* class fs dibawah akan membuat ukuran elemen bisa sesuai dengan konten */
+    .fs{
+      field-sizing: content;
+    }
+  </style>
+  <title>Field-Sizing</title>
+</head>
+<body>
+      <form>
+          <h1>Tanpa Field-Sizing</h1>
+        
+        <input type="text" placeholder="Tanpa Field-Sizing"><br><br>
+        
+        <textarea rows="4" cols="50" placeholder="Tanpa Field-Sizing"></textarea><br><br>
+        
+        <select>
+            <option>sesingkat cerita kita</option>
+            <option>pemujaan yang berlebihan tidaklah baik</option>
+            <option>aku tau banyak hal, tapi aku tidak tau yang lebih panjang dari penantianku padamu </option>
+        </select>
+        
+        <br><br><br><br><br>
+        
+          <h1>Dengan Field-Sizing</h1>
+        <!-- buat atribut class yang memiliki value "fs" yang nantinya di css dijadikan selector untuk membuat Field-Sizing -->
+        <input class="fs" type="text" placeholder="Dengan Field-Sizing"><br><br>
+        
+        <textarea class="fs" rows="4" cols="50" placeholder="Dengan Field-Sizing"></textarea><br><br>
+        
+        <select class="fs">
+            <option>sesingkat cerita kita</option>
+            <option>pemujaan yang berlebihan tidaklah baik</option>
+            <option>aku tau banyak hal, tapi aku tidak tau yang lebih panjang dari penantianku padamu </option>
+        </select>
+    </form>
+</body>
+</html>
