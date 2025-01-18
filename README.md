@@ -52,7 +52,7 @@ Selamat datang di _studi-kasus-css-wrappped-2024-Udenbaguse_
     *   []
     *   []
 
-*   **[#9]:** 
+*   **[#9Scroll-Snap-Event]:** 
     *   **[]**  
     *   []
     *   []
