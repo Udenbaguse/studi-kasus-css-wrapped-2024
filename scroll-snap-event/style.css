@@ -1,0 +1,21 @@
+.scroller {
+            display: flex;
+            overflow-x: scroll;
+            scroll-snap-type: x mandatory;
+/* x:  Menyatakan bahwa scroll snap  berlaku pada sumbu horizontal.
+mandatory:  Menyatakan bahwa scroll snap  berlaku secara wajib,  artinya scroll  akan selalu berhenti pada target snap. */
+            width: 100%;
+            height: 200px;
+        }
+.snap-item {
+            flex: none;
+            width: 100%;
+            height: 100%;
+            scroll-snap-align: start; /* scroll dari kiri */
+            background-color: lightblue;
+            border: 1px solid #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+}
