@@ -26,8 +26,8 @@ Untuk script.js bisa copy-paste semua(class accordion-item dan accordion-button 
                   }
                 })
                item.classList.toggle("active")
-                  })
-                })
+            })
+        })
              
 tapi ada juga baris css yang harus di copy-paste supaya kode js berjalan(nama class sesuaikan dengan project masing-masing).
 
