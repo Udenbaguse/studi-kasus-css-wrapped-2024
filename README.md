@@ -58,7 +58,7 @@ Selamat datang di _studi-kasus-css-wrappped-2024-Udenbaguse_
     *   []
     *   []
 
-*   **[#10]:** 
+*   **[#10 Backdrop-Inheritance]:** 
     *   **[]**  
     *   []
     *   []
