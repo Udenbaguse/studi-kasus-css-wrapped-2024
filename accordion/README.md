@@ -20,14 +20,14 @@ Untuk script.js bisa copy-paste semua(class accordion-item dan accordion-button 
     accordionItems.forEach(item => {
       const button = item.querySelector(".accordion-button")
       button.addEventListener("click", () => {
-    accordionItems.forEach(otherItem => {
-      if(otherItem !== item){
-        otherItem.classList.remove("active")
-      }
-    })
-    item.classList.toggle("active")
-      })
-    })
+                accordionItems.forEach(otherItem => {
+                  if(otherItem !== item){
+                    otherItem.classList.remove("active")
+                  }
+                })
+               item.classList.toggle("active")
+                  })
+                })
              
 tapi ada juga baris css yang harus di copy-paste supaya kode js berjalan(nama class sesuaikan dengan project masing-masing).
 
@@ -45,7 +45,21 @@ Jadi jika kita membuat accordion sederhana kita tidak perlu Javascript, karena k
 
 Kalo kita mau cuma ada 1 konten aja yang terbuka(atrbut _open_ pada tag details), kita tinggal copy-paste Javascript dari dokumentasi CSS Wrapped 2024.
 
+            document.querySelectorAll("details[name]").forEach(($details) => {
+              $details.addEventListener("toggle", (e) => {
+                const name = $details.getAttribute("name");
 
+                if (e.newState == "open") {
+                  document
+                    .querySelectorAll(`details[name=${name}][open]`)
+                    .forEach(($openDetails) => {
+                      if (!($openDetails == $details)) {
+                        $openDetails.removeAttribute("open");
+                      }
+                    });
+                }
+              });
+            });
 
 Kita juga perlu menambahkan  atribut _name_ pada setiap tag _details_ di index.html dan value dari atribut _name_ dibuat sama.
   Supaya cuma ada 1 aja atribut _open_ di tag yang ada kesamaan value name, yaitu yang paling akhir diklik.
