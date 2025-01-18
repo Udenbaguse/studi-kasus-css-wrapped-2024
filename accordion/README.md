@@ -43,7 +43,7 @@ Akhirnya masalah kode gw teratasi setelah membaca dokumentasi CSS Wrapped 2024.
 Dengan menggunakan tag HTML _details_ dan _summary_, kita tidak perlu menyembunyikan konten _display:none_ dan menampilkannya _display:block_ saat tombol diklik.
 Jadi jika kita membuat accordion sederhana kita tidak perlu Javascript, karena ketika tag _summary_ diklik otomatis tag _details_ memiliki atribut _open_ yang  membuat konten ditampilkan.
 
-Kalo kita mau cuma ada 1 konten aja yang terbuka(atrbut _open_ pada tag details), kita tinggal copy-paste Javascript dari dokumentasi CSS Wrapped 2024.
+Kalo kita mau cuma ada 1 konten aja yang terbuka(atribut _open_ pada tag details), kita tinggal copy-paste Javascript dari dokumentasi CSS Wrapped 2024.
 
             document.querySelectorAll("details[name]").forEach(($details) => {
               $details.addEventListener("toggle", (e) => {
