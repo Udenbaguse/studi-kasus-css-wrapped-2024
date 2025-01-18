@@ -16,7 +16,7 @@ Selamat datang di _studi-kasus-css-wrappped-2024-Udenbaguse_
     *   [field-sizing: content;]
     *   [digunakan untuk tag input, textarea, dan select]
 
-*   **[#2 Animate-to-height-auto]:** 
+*   **[#2 Animate-To-Height-Auto]:** 
     *   **[Interpolate-Size]**  
     *   [membuat max-content kompatibel dengan transition]
     *   [interpolate-size: allow-keyword]
