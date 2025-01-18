@@ -62,5 +62,15 @@ Kalo kita mau cuma ada 1 konten aja yang terbuka(atrbut _open_ pada tag details)
             });
 
 Kita juga perlu menambahkan  atribut _name_ pada setiap tag _details_ di index.html dan value dari atribut _name_ dibuat sama.
+
+    <details name="udenbaguse" open>
+      <summary>Accordion Item #1</summary>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et facilis, cum sunt, eligendi accusamus cupiditate dolorem fuga quasi rem magni illo, repellat repudiandae rerum qui beatae labore esse quisquam dolor.</p>
+    </details>
+    <details name="udenbaguse">
+      <summary>Accordion Item #2</summary>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et facilis, cum sunt, eligendi accusamus cupiditate dolorem fuga quasi rem magni illo, repellat repudiandae rerum qui beatae labore esse quisquam dolor.</p>
+    </details>
+
   Supaya cuma ada 1 aja atribut _open_ di tag yang ada kesamaan value name, yaitu yang paling akhir diklik.
   style.css bisa dibuat bebas 
