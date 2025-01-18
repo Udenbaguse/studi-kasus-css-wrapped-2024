@@ -43,11 +43,8 @@ Selamat datang di _studi-kasus-css-wrappped-2024-Udenbaguse_
     *   []
     *   []
 
-*   **[#7 Cross-Document-View-Transitions]:** 
-    *   **[ga ada, browser gw ga kompatibel]**  
-    *   []
-    *   []
-    *   []
+  Skip **[#7 Cross-Document-View-Transitions]:** 
+    
 
 *   **[#8 Scroll-Driven-Animation]:** 
     *   **[]**  
