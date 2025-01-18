@@ -1,9 +1,9 @@
 Penjelasan di file README ini melanjutkan penjelasan di video
 
 gw upload di github, biar temen-temen bisa membandingkan sacara langsung. kode accordion yang dibuat pake:
-Bootstrap(accordion-bootstrap)
-buatan sendiri(accordion-udenbaguse)
-CSS Wrapped 2024(accordion-csswrapped2024)
+Bootstrap(accordion-bootstrap),
+buatan sendiri(accordion-udenbaguse),
+CSS Wrapped 2024(accordion-csswrapped2024).
 
 **accordion-bootstrap**
 Kebanyakan pemula yang baru belajar pasti memilih pake Bootstrap, karena kemudahannya tinggal copy-paste component dari dokumentasi resmi terus tingal edit sesuai kebutuhan.
