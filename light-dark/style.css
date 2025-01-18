@@ -1,0 +1,18 @@
+@media (prefers-color-scheme: dark) {
+        body {
+            --background-color: #333;
+            --text-color: #f0f0f0;
+          }
+        }
+@media (prefers-color-scheme: light) {
+        body {
+            --background-color: #fff;
+             --text-color: #000;
+          }
+        }
+        
+body {
+       color-scheme: light dark;
+       background-color: var(--background-color);
+       color: var(--text-color);
+  }
