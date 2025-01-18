@@ -1,0 +1,27 @@
+    #container{
+      display: flex;
+      flex-flow: row wrap;
+      /* flex-flow = flex-direction + flex-wrap */
+      gap: 10px;
+    }
+    .gambar{
+      width: 300px;
+      height: 300px;
+      background-color: skyblue;
+    }
+    
+    @keyframes animasiku{
+      from{
+        opacity: 0;
+        clip-path: inset(100%);
+      }
+      to{
+        opacity: 1;
+        clip-path: inset(0);
+      }
+    }
+    .block{
+      animation: animasiku 1s linear;
+      animation-timeline: view(); /* animasi akan dimulai ketika elemen tersebut masuk ke dalam area viewport. */
+      animation-range: entry 0% cover 40%; /* dimulai ketika elemen tersebut masuk ke dalam viewport dan akan berakhir ketika elemen tersebut telah masuk ke dalam viewport dengan jarak 40%. */
+    }
