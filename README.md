@@ -28,7 +28,7 @@ Selamat datang di _studi-kasus-css-wrappped-2024-Udenbaguse_
     *   [details & summary]
     *   [membandingkan accordion versi: bootstrap, buatan sendiri, & css wrapper 2024. mengimplementasikan accordion css wrapper 2024 pada accordion sebelumnya(buatan sendiri)]
 
-*   **[#4 Accordion-Styleable-details]:** 
+*   **[#4 Accordion-Styleable-Details]:** 
     
 *   **[#5 Anchor-Positoning]:** 
     *   **[positioned-elemen]**  
