@@ -72,5 +72,5 @@ Kita juga perlu menambahkan  atribut _name_ pada setiap tag _details_ di index.h
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et facilis, cum sunt, eligendi accusamus cupiditate dolorem fuga quasi rem magni illo, repellat repudiandae rerum qui beatae labore esse quisquam dolor.</p>
     </details>
 
-  Supaya cuma ada 1 aja atribut _open_ di tag yang ada kesamaan value name, yaitu yang paling akhir diklik.
+  Supaya cuma ada 1 aja atribut _open_ di tag yang ada kesamaan value name, yaitu yang paling akhir diklik. \n
   style.css bisa dibuat bebas 
