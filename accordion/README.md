@@ -1,6 +1,6 @@
 Penjelasan di file README ini melanjutkan penjelasan di video
 
-gw upload di github, biar temen-temen bisa membandingkan sacara langsung. kode accordion yang dibuat pake:
+gw upload di github, biar temen-temen bisa membandingkan secara langsung. kode accordion yang dibuat pake:
 Bootstrap(accordion-bootstrap),
 buatan sendiri(accordion-udenbaguse),
 CSS Wrapped 2024(accordion-csswrapped2024).
