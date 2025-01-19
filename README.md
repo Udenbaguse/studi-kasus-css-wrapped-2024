@@ -70,7 +70,7 @@ Selamat datang di _studi-kasus-css-wrappped-2024-Udenbaguse_
     *   []
     *   []
 
-*   **[#12]:** 
+*   **[#12 Property]:** 
     *   **[]**  
     *   []
     *   []
