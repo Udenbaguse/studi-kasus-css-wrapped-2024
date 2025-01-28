@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  border: none;
+  width: 100%;
+  font-family: Serif;
+}
+summary,p{
+  padding: 12px;
+  border-bottom: 1px solid black;
+}
+summary{
+  cursor: pointer;
+  background-color: powderblue;
+  text-align: left;
+  font-size: 1.2rem;
+}
+[open] summary{
+  background-color: grey;
+  color: white;
+}
