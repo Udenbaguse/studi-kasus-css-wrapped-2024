@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  border: none;
+  width: 100%;
+  font-family: Serif;
+}
+.accordion-button, .accordion-content{
+  padding: 12px;
+  border-bottom: 1px solid black;
+}
+.accordion-button{
+  cursor: pointer;
+  background-color: powderblue;
+  text-align: left;
+}
+.accordion-content{
+  display: none;
+}
+.accordion-item.active .accordion-content{
+  display: block;
+}
+.accordion-item.active .accordion-button{
+  background-color: grey;
+  color: white;
+}
